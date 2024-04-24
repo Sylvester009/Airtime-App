@@ -1,9 +1,16 @@
 import Image from "next/image";
 
+import Header from "./components/header/Header";
+import About from "./components/About";
+import Faqs from "./components/Faqs";
+import Footer from "./components/Footer";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      
+    <main className="w-full">
+      <Header />
+      <About />
+      <Faqs />
+      <Footer />
     </main>
   );
 }
