@@ -36,17 +36,17 @@ const Form = () => {
   };
 
   return (
-    <form className="bg-white shadow-lg p-12 pt-0 rounded-xl flex flex-wrap relative z-10">
-      <h1 className="text-3xl font-bold text-gray-900 text-center w-full mt-3 mb-3">
+    <form className="bg-white shadow-lg p-6 rounded-xl flex flex-wrap items-center justify-center sm:p-10 md:p-12 lg:p-16">
+      <h1 className="text-3xl font-bold text-gray-900 text-center w-full mb-6">
         Buy Airtime
       </h1>
-      <div className="flex justify-between items-center w-full gap-3">
-        <div className="flex flex-col gap-4 w-full">
+      <div className="flex flex-col w-full md:flex-row md:justify-between">
+        <div className="w-full md:w-1/2 md:pr-3">
           <label htmlFor="country" className="text-gray-600 font-medium mt-2">
             Country
           </label>
           <select 
-            className="p-3 text-gray-600 border-2 border-gray-300 border-solid bg-white w-full"
+            className="p-3 text-gray-600 border-2 border-gray-300 bg-white w-full rounded-md focus:outline-none focus:border-blue-500"
             value={selectedCountry}
             onChange={handleCountryChange}
           >
@@ -58,36 +58,36 @@ const Form = () => {
             ))}
           </select>
         </div>
-        <div className="flex flex-col gap-4 w-full">
+        <div className="w-full md:w-1/2 md:pl-3">
           <label htmlFor="number" className="text-gray-600 font-medium mt-2">
             Phone Number
           </label>
           <input
             id="number"
             type="tel"
-            className="p-3 text-gray-600 border-2 border-gray-300 border-solid bg-white w-full"
+            className="p-3 text-gray-600 border-2 border-gray-300 bg-white w-full rounded-md focus:outline-none focus:border-blue-500"
             disabled={phoneNumberDisabled}
             value={phoneNumber}
             onChange={(e) => setPhoneNumber(e.target.value)}
           />
         </div>
       </div>
-      <div className="flex flex-col gap-4 w-full">
-        <p className="text-gray-600 font-medium mt-2">Service Provider</p>
-        <select className="p-3 text-gray-600 border-2 border-gray-300 border-solid bg-white w-full">
+      <div className="w-full mt-4">
+        <p className="text-gray-600 font-medium">Service Provider</p>
+        <select className="p-3 text-gray-600 border-2 border-gray-300 bg-white w-full rounded-md focus:outline-none focus:border-blue-500">
           <option>select provider</option>
         </select>
       </div>
-      <div className="flex flex-col gap-4 w-full">
-        <p className="text-gray-600 font-medium mt-2">Amount</p>
+      <div className="w-full mt-4">
+        <p className="text-gray-600 font-medium">Amount</p>
         <input
-          className="p-3 text-gray-600 border-2 border-gray-300 border-solid bg-white w-full"
+          className="p-3 text-gray-600 border-2 border-gray-300 bg-white w-full rounded-md focus:outline-none focus:border-blue-500"
           type="number"
         />
       </div>
       <button
         type="submit"
-        className="p-3 text-white border-2 font-bold bg-blue-700 w-full mt-5"
+        className="p-3 text-white border-2 font-bold bg-blue-700 w-full mt-6 rounded-md hover:bg-blue-800 focus:outline-none focus:bg-blue-800"
       >
         Purchase
       </button>
