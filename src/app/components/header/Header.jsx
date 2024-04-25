@@ -16,7 +16,7 @@ const Header = () => {
           <p  className="text-white pt-10">
             Introducing JMA Multilinks Ltd, your go-to platform for
             international airtime purchases. No matter where you are on the
-            globe, we’ve got you covered.
+            globe, we&apos;ve got you covered.
           </p>
         </div>
         <div className="p-20">
