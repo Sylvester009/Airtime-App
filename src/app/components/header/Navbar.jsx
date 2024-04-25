@@ -16,7 +16,7 @@ const Navbar = () => {
           <a href="/contact">Contact</a>
         </li>
         <li className="text-xl font-semibold text-gray-500">
-          <a href="/faqs">FAQs</a>
+          <a href="/">FAQs</a>
         </li>
         <span>Get In Touch</span>
       </ul>
