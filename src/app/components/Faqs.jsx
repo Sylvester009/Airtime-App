@@ -14,7 +14,7 @@ const Faqs = () => {
             <p className="text-lg font-bold">How do I order airtime using your platform?</p>
           </div>
           <p className="text-base md:text-lg text-gray-700">
-            Ordering airtime is a breeze. Just select the recipient's country,
+            Ordering airtime is a breeze. Just select the recipient&apos;s country,
             enter their phone number, choose their service provider, specify the
             amount, and complete the payment. Airtime will be delivered instantly.
           </p>
@@ -30,7 +30,7 @@ const Faqs = () => {
         </div>
         <div className="space-y-8 mt-8 md:mt-12">
           <div className="bg-blue-600 text-white rounded-lg p-4 md:p-6">
-            <p className="text-lg font-bold">What's the breadth of your service provider and country coverage?</p>
+            <p className="text-lg font-bold">What&apos;s the breadth of your service provider and country coverage?</p>
           </div>
           <p className="text-base md:text-lg text-gray-700">
             We have a vast network of 80+ service providers available in more
