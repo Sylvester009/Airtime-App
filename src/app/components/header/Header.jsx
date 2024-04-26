@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <>
       <Navbar />
-      <header className="bg-gradient-to-r from-blue-500 to-purple-600 w-full py-8 md:py-12 lg:py-16 flex flex-col md:flex-row justify-center items-center">
+      <header className="bg-gradient-to-r from-blue-500 to-purple-600 w-full py-8 md:py-12 lg:py-16 flex flex-col md:flex-row justify-center items-center px-5">
         <div className="max-w-3xl mx-auto text-center md:text-left px-4 md:px-8">
           <h1 className="text-3xl md:text-5xl lg:text-6xl text-white font-bold leading-tight mb-4 md:mb-6">
             Your Gateway to International Airtime Top-Ups
@@ -18,7 +18,7 @@ const Header = () => {
             globe, we&apos;ve got you covered.
           </p>
         </div>
-        <div className="mt-6 md:mt-0">
+        <div className="mt-6 md:mt-12 shadow-lg">
           <Form />
         </div>
       </header>

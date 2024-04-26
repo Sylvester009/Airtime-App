@@ -76,6 +76,10 @@ const Form = () => {
         <p className="text-gray-600 font-medium">Service Provider</p>
         <select className="p-3 text-gray-600 border-2 border-gray-300 bg-white w-full rounded-md focus:outline-none focus:border-blue-500">
           <option>select provider</option>
+          <option>MTN NG</option>
+          <option>GLO</option>
+          <option>Airtel</option>
+          <option>9Mobile</option>
         </select>
       </div>
       <div className="w-full mt-4">
