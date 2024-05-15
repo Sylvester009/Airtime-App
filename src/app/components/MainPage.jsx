@@ -1,3 +1,8 @@
+import React from "react";
+
+const MainPage = () => {
+  return (
+        <>
 <header class="header mobile-header">
       <img src="Meet-Image/logo.svg" alt="meet logo" class="logo" />
       <div class="people-div">
@@ -123,3 +128,8 @@
         Download <span>v1.3</span>
       </button>
     </footer>
+        </>
+        );
+};
+
+export default MainPage;
